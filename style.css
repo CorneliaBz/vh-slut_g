@@ -11,35 +11,45 @@ body {
 }
 
 header{
-   background-color: #0066ae;
+   background: linear-gradient(180deg, rgba(0,102,174,1) 0%, rgba(110,175,225,1) 100%);;
    color: #6fb9ee;
    height: 8rem;
+   border-bottom: 2px solid #7fbdec;
 }
 
 nav{
    background-color: #dc0612;
-   height: 2rem;
+   height: auto;
    font-size: 20px;
    text-transform: uppercase;
+}
+
+section{
+   margin: 0 8rem;
 }
 
 h1 {
    font-family: Arial;
    font-size: 3em;
+   padding: 2rem;
 }
 
 p {
    font-family: 'Times New Roman', Times, serif;
    font-size: 1.5em;
+   text-align: left;
+   margin: 1rem;
 }
 
 a {
    color: rgb(241, 157, 157);
    text-decoration: none;
    margin: 1rem;
+   padding: 1rem;
 }
 
 a:hover{
    text-decoration: underline;
-   color: whitesmoke;
+   color: rgb(112, 18, 18);
+   padding: 1rem;
 }
