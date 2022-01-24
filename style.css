@@ -1,6 +1,26 @@
+*{
+   padding: 0;
+   margin: 0;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
 body {
-  background: #44AA44;
-  background-color: #44AA44;
+  background-color: #e6ece6;
+  height: 100vh;
+  text-align: center;
+}
+
+header{
+   background-color: #0066ae;
+   color: #6fb9ee;
+   height: 8rem;
+}
+
+nav{
+   background-color: #dc0612;
+   height: 2rem;
+   font-size: 20px;
+   text-transform: uppercase;
 }
 
 h1 {
@@ -9,10 +29,17 @@ h1 {
 }
 
 p {
-   font-family Times New Roman;
+   font-family: 'Times New Roman', Times, serif;
    font-size: 1.5em;
 }
 
 a {
-   color: white;
+   color: rgb(241, 157, 157);
+   text-decoration: none;
+   margin: 1rem;
+}
+
+a:hover{
+   text-decoration: underline;
+   color: whitesmoke;
 }
